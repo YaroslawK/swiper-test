@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load ="partials/header.html" />
-
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
-
+    <!-- Slider main container -->
+    <div class="swiper container">
+      <!-- Additional required wrapper -->
+      <ul class="swiper-wrapper">
+        <!-- Slides -->
+        <li class="swiper-slide">Slide 1</li>
+        <li class="swiper-slide">Slide 2</li>
+        <li class="swiper-slide">Slide 3</li>
+      </ul>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
